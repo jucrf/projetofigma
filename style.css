@@ -1,0 +1,204 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #00030c;
+    color: #ffff;
+    margin: 0;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-assinar,.botao-tecleo, .botao-combo {
+    display: block;
+    box-sizing: border-box;
+    width: 510px;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    color: #ffff;
+}
+
+.botao-assinar, .botao-combo {
+    background-color: #1e6fff;
+}
+
+.botao-assinar:hover,.botao-combo:hover {
+    background-color: #3d8bff;
+}
+
+.botao-tecleo {
+    border: 1px solid #ffff;
+    background-color: #000;
+    line-height: 52px;
+}
+
+.botao-tecleo:hover {
+    background-color: #333;
+}
+
+.botao-combo {
+    width: 160px;
+    margin: 20px 0 0 0;
+}
+
+.hero {
+    height: 680px;
+    box-sizing: border-box;
+    background: #00030c url("imagens/Background.png") no-repeat 50px top;
+    background-size: 1400px auto;
+    padding: 120px 0 0 40px;
+}
+
+.hero-texto {
+    width: 600px;
+    text-align: center;
+}
+
+.hero-chamada {
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.logo-combo {
+    display: block;
+    width: 380px;
+    margin: 5px auto 45px auto;
+}
+
+.aviso {
+    font-size: 11px;
+    margin: 5px 0 0 0;
+}
+/* secoes com imagem e texto */
+
+.assista, .combo, .baixe {
+    height: 570px;
+    display: flex;
+    align-items: center;
+}
+
+.assista {
+    height: 680px;
+    box-sizing: border-box;
+    padding-top: 110px;
+}
+
+.conteudo {
+    width: 1160px;
+    max-width: 94%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo img {
+    display: block;
+}
+
+.conteudo h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.conteudo p {
+    font-size: 16px;
+    color: #ccc;
+    margin: 0;
+}
+/* imagens */
+
+.imagem-esquerda {
+    width: 560px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.imagem-notebook {
+    width: 560px;
+}
+
+.imagem-direita {
+    width: 500px;
+}
+
+/* textos */
+
+.texto {
+    width: 570px;
+}
+
+.texto-combo {
+    width: 590px;
+}
+/* dispositivos */
+
+.dispositivos {
+    padding: 130px 0 140px 0;
+    text-align: center;
+}
+
+.dispositivos h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 40px 0;
+}
+
+.lista-dispositivos {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.dispositivo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.dispositivo p {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+/* rodape */
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.logo-rodape {
+    margin-bottom: 30px;
+}
+
+.rodape-links li {
+    display: inline;
+    margin: 0 8px;
+}
+
+.rodape-links a {
+    color: #ffff;
+    font-size: 15px;
+}
+
+.rodape-links {
+    text-decoration: underline;
+}
+
+.rodape-texto {
+    width: 1160px;
+    max-width: 94%;
+    margin: 0 auto 25px auto;
+    font-size: 14px;
+    color: #ccc;
+}
